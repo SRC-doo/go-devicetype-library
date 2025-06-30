@@ -1997,6 +1997,52 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "AP7900B": {
+        Manufacturer: "APC",
+        Model: "AP7900B",
+        Slug: "apc-ap7900b",
+        UHeight: 1,
+        PartNumber: "AP7900B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-12", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "nema-l5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 2", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 3", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 4", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 5", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 6", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 7", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 8", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
     "AP7901B": {
         Manufacturer: "APC",
         Model: "AP7901B",
