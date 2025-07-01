@@ -7289,6 +7289,50 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Universal I/O 1", Label: "RJ-45", Type: "other", MgmtOnly: false },
         },
     },
+    "Smart-UPS SRTG6KXLI-NCLI": {
+        Manufacturer: "APC",
+        Model: "Smart-UPS SRTG6KXLI-NCLI",
+        Slug: "apc-srtg6kxli-ncli",
+        UHeight: 4,
+        PartNumber: "SRTG6KXLI-NCLI",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 55.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "hardwired", MaximumDraw: 6600, AllocatedDraw: 6000 },
+            { Name: "XLBP Source", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Hardwire Output", Type: "hardwired", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "Smart-UPS X 1000VA, Rack Mount, LCD 230V": {
         Manufacturer: "APC",
         Model: "Smart-UPS X 1000VA, Rack Mount, LCD 230V",
