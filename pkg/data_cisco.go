@@ -45565,18 +45565,18 @@ var DeviceTypesMapcisco = map[string]*DeviceData{
             { Name: "mgmt0", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
-    "Nexus 9332D-GX2b": {
+    "Nexus 9332D-GX2B": {
         Manufacturer: "Cisco",
-        Model: "Nexus 9332D-GX2b",
+        Model: "Nexus 9332D-GX2B",
         Slug: "cisco-n9k-c9332d-gx2b",
-        UHeight: 2,
+        UHeight: 1,
         PartNumber: "N9K-C9332D-GX2B",
         IsFullDepth: true,
         Airflow: "",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 12.7,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
