@@ -691,7 +691,7 @@ var DeviceTypesMapubiquiti = map[string]*DeviceData{
         Airflow: "passive",
         FrontImage: true,
         RearImage: true,
-        SubdeviceRole: "",
+        SubdeviceRole: "parent",
         Weight: 600,
         WeightUnit: "",
         IsPowered: false,
