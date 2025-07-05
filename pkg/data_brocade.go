@@ -798,6 +798,60 @@ var DeviceTypesMapbrocade = map[string]*DeviceData{
             { Name: "GigabitEthernet1/2/4", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
         },
     },
+    "ICX 6430-C12": {
+        Manufacturer: "Brocade",
+        Model: "ICX 6430-C12",
+        Slug: "brocade-icx6430-c12",
+        UHeight: 1,
+        PartNumber: "ICX6430-C12",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.81,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "con0", Type: "rj-45", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "psu0", Label: "", Type: "iec-60320-c14", MaximumDraw: 93, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "oob-mgmt1", Label: "", Type: "1000base-t", MgmtOnly: true },
+            { Name: "ge-1/1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/1/12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/2/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "ge-1/2/2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "xg-1/3/1", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "xg-1/3/2", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "ICX 6450-24": {
         Manufacturer: "Brocade",
         Model: "ICX 6450-24",
