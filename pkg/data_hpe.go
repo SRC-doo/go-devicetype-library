@@ -23789,7 +23789,6 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "PSU1" },
             { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "FlexLOM", Label: "", Position: "FlexLOM" },
             { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
             { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
             { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
@@ -23798,16 +23797,14 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
             { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
             { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
             { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
         },
 			  DeviceBays: []DeviceBay{
         },
         InventoryItems: []InventoryItem{
         },
         Interfaces: []Interface{
-            { Name: "Gig-E 1", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 2", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 3", Label: "", Type: "1000base-t", MgmtOnly: false },
-            { Name: "Gig-E 4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "iLO", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
@@ -24097,7 +24094,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         Model: "ProLiant DL385 Gen11",
         Slug: "hpe-proliant-dl385-gen11",
         UHeight: 2,
-        PartNumber: "",
+        PartNumber: "P53921-B21",
         IsFullDepth: true,
         Airflow: "front-to-rear",
         FrontImage: false,
@@ -24107,6 +24104,7 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "de-9", Label: "", Poe: false },
         },
         ConsoleServerPorts: []ConsoleServerPort{
         },
@@ -24121,13 +24119,16 @@ var DeviceTypesMaphpe = map[string]*DeviceData{
         ModuleBays: []ModuleBay{
             { Name: "PSU1", Label: "", Position: "PSU1" },
             { Name: "PSU2", Label: "", Position: "PSU2" },
-            { Name: "OCP3", Label: "", Position: "OCP3" },
+            { Name: "OCP1", Label: "OCP 3.0", Position: "OCP1" },
+            { Name: "OCP2", Label: "OCP 3.0", Position: "OCP2" },
             { Name: "PCIe1", Label: "primary riser", Position: "PCIe1" },
             { Name: "PCIe2", Label: "primary riser", Position: "PCIe2" },
             { Name: "PCIe3", Label: "primary riser", Position: "PCIe3" },
             { Name: "PCIe4", Label: "secondary riser", Position: "PCIe4" },
             { Name: "PCIe5", Label: "secondary riser", Position: "PCIe5" },
             { Name: "PCIe6", Label: "secondary riser", Position: "PCIe6" },
+            { Name: "PCIe7", Label: "tertiary riser", Position: "PCIe7" },
+            { Name: "PCIe8", Label: "tertiary riser", Position: "PCIe8" },
         },
 			  DeviceBays: []DeviceBay{
         },
