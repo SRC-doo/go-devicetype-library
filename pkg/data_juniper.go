@@ -18001,12 +18001,12 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         Slug: "juniper-srx4600",
         UHeight: 1,
         PartNumber: "",
-        IsFullDepth: false,
-        Airflow: "",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
         FrontImage: true,
         RearImage: true,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 17.24,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -18015,8 +18015,6 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PEM0", Label: "", Type: "iec-60320-c14", MaximumDraw: 1600, AllocatedDraw: 0 },
-            { Name: "PEM1", Label: "", Type: "iec-60320-c14", MaximumDraw: 1600, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -18025,6 +18023,13 @@ var DeviceTypesMapjuniper = map[string]*DeviceData{
         RearPorts: []RearPort{
         },
         ModuleBays: []ModuleBay{
+            { Name: "PSU 0", Label: "", Position: "PEM-0" },
+            { Name: "PSU 1", Label: "", Position: "PEM-1" },
+            { Name: "FAN 0", Label: "", Position: "0" },
+            { Name: "FAN 1", Label: "", Position: "1" },
+            { Name: "FAN 2", Label: "", Position: "2" },
+            { Name: "FAN 3", Label: "", Position: "3" },
+            { Name: "FAN 4", Label: "", Position: "4" },
         },
 			  DeviceBays: []DeviceBay{
         },
