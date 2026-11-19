@@ -21,7 +21,7 @@ var DeviceTypesMapamcrest = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 2, AllocatedDraw: 4 },
+            { Name: "DC IN", Label: "", Type: "dc-terminal", MaximumDraw: 4, AllocatedDraw: 2 },
         },
         PowerOutlets: []PowerOutlet{
         },
